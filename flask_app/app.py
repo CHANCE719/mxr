@@ -8,6 +8,9 @@ app.secret_key = '111'
 app = Flask(__name__, static_folder='static')
 app.config['TEMPLATES_AUTO_RELOAD'] = True
 
+# 修改模板文件夹的路径为当前目录
+app.template_folder = '.'  
+
 # 数据库连接配置
 def get_db_connection():
     try:

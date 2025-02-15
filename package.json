@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "deploy": "npx -y rth-host-helper@latest --site xrxx --outdir ."
+  },
+  "dependencies": {
+    "npm": "^11.1.0"
+  }
+}
